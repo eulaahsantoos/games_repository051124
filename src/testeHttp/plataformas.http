@@ -1,0 +1,14 @@
+@url = https://8080-mikeeeevale-gamessw2202-wwd7dnj7ja5.ws-us116.gitpod.io
+
+GET {{url}}/plataformas
+
+###
+POST {{url}}/plataformas
+Content-Type: application/json
+
+{
+    "nome": "Mobile"
+}
+
+###
+GET {{url}}/plataformas/4
