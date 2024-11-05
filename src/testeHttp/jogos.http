@@ -1,4 +1,4 @@
-@url = https://8080-mikeeeevale-gamessw2202-jd0x35ewz1i.ws-us116.gitpod.io
+@url = https://8080-eulaahsanto-gamesreposi-onpd7iwj5hu.ws-us116.gitpod.io
 
 GET {{url}}/jogos
 
@@ -7,9 +7,24 @@ POST {{url}}/jogos
 Content-Type: application/json
 
 {
-    "titulo": "",
+    "titulo": "Vampire Survivors",
     "plataformas": [
         {"id": 1},
         {"id":2}
     ]
 }
+
+###
+DELETE {{url}}/jogos/3
+
+###
+PUT {{url}}/jogos/4
+Content-Type: application/json
+
+
+{
+    "titulo": "Vampire Survivors - Alterado",
+    "plataformas:" [
+        {"id": 1}
+    ]
+} 
